@@ -17,7 +17,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-1.5-pro')
 
 # Streamlit app structure
-st.set_page_config(page_title="Test Assistant Demo")
+st.set_page_config(page_title="Text Assistant Demo")
 st.title("Gemini Pro Application") 
 
 # Using a form for better user experience
